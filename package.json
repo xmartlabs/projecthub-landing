@@ -1,0 +1,14 @@
+{
+  "name": "projecthub-landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://mlvieras@bitbucket.org/mlvieras/projecthub-landing.git",
+  "author": "mlorenzo@xmartlabs.com",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass --include-path sass sass/main.scss css/custom.css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.2"
+  }
+}
