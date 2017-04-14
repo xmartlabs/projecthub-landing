@@ -1,0 +1,29 @@
+.footer-gradient {
+  background: $dark-sky-blue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient($dark-sky-blue , $dark-periwinkle); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($dark-sky-blue, $dark-periwinkle); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($dark-sky-blue, $dark-periwinkle); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($dark-sky-blue , $dark-periwinkle); /* Standard syntax */
+}
+
+.footer {
+  @extend .footer-gradient;
+  padding: 40px 0;
+  .footer-logo-container {
+    margin-bottom: 30px;
+  }
+  .title {
+    color: white;
+    font-family: Lato;
+    font-style: italic;
+    font-weight: lighter;
+  }
+  .links {
+    &.transparent {
+      opacity: 0.6;
+    }
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+  }
+}
