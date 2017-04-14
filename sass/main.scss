@@ -1,0 +1,45 @@
+@import "variables";
+@import "fonts";
+
+.header {
+  padding: 80px 0;
+  margin-bottom: 40px;
+  background-color: $dark-sky-blue;
+  .title{
+    margin-top: 0;
+    font-family: Lato;
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+  }
+  .subtitle {
+    font-family: Lato;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  .store-button {
+    max-width: 45%;
+    height: auto;
+  }
+}
+
+.title {
+  font-family: Lato;
+  font-weight: 100;
+  font-style: italic;
+  color: $warm-grey;
+  margin-bottom: 30px;
+}
+
+.section-header {
+  font-family: Aller;
+  font-weight: bold;
+  color: $dark-periwinkle;
+}
+
+.subtext {
+  font-family: Lato;
+  font-size: 18px;
+  color: $common-grey;
+}

@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Aller;
+  src: url("../fonts/aller/aller_bd.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/aller/aller_bd.eot?#iefix") format("embedded-opentype"), url("../fonts/aller/aller_bd.woff") format("woff"), url("../fonts/aller/aller_bd.ttf") format("truetype"), url("../fonts/aller/aller_bd.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: bold;
+  font-style: normal; }
+
+.header {
+  padding: 80px 0;
+  margin-bottom: 40px;
+  background-color: #4a90e2; }
+  .header .title {
+    margin-top: 0;
+    font-family: Lato;
+    font-weight: lighter;
+    font-style: italic;
+    color: white; }
+  .header .subtitle {
+    font-family: Lato;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px; }
+  .header .store-button {
+    max-width: 45%;
+    height: auto; }
+
+.title {
+  font-family: Lato;
+  font-weight: 100;
+  font-style: italic;
+  color: #979797;
+  margin-bottom: 30px; }
+
+.section-header {
+  font-family: Aller;
+  font-weight: bold;
+  color: #6e7fd8; }
+
+.subtext {
+  font-family: Lato;
+  font-size: 18px;
+  color: #919191; }
