@@ -7,10 +7,21 @@
   font-weight: bold;
   font-style: normal; }
 
+.header-gradient, .header {
+  background: #4a90e2;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #4a90e2, #d56fa1);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #4a90e2, #d56fa1);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #4a90e2, #d56fa1);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #4a90e2, #d56fa1);
+  /* Standard syntax */ }
+
 .header {
   padding: 80px 0;
-  margin-bottom: 40px;
-  background-color: #4a90e2; }
+  margin-bottom: 40px; }
   .header .title {
     margin-top: 0;
     font-family: Lato;
@@ -25,6 +36,11 @@
   .header .store-button {
     max-width: 45%;
     height: auto; }
+
+.how-to-section {
+  margin: 10px 0; }
+  .how-to-section.grey {
+    background-color: #f8f8fb; }
 
 .title {
   font-family: Lato;
@@ -42,3 +58,6 @@
   font-family: Lato;
   font-size: 18px;
   color: #919191; }
+
+.how-to-image {
+  max-width: 100%; }

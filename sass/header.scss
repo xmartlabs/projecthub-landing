@@ -1,0 +1,30 @@
+.header-gradient {
+  background: $dark-sky-blue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, $dark-sky-blue , $pale-magenta); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $dark-sky-blue, $pale-magenta); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $dark-sky-blue, $pale-magenta); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $dark-sky-blue , $pale-magenta); /* Standard syntax */
+}
+
+.header {
+  @extend .header-gradient;
+  padding: 80px 0;
+  margin-bottom: 40px;
+  .title{
+    margin-top: 0;
+    font-family: Lato;
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+  }
+  .subtitle {
+    font-family: Lato;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  .store-button {
+    max-width: 45%;
+    height: auto;
+  }
+}

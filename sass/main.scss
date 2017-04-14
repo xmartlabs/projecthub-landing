@@ -1,26 +1,11 @@
 @import "variables";
 @import "fonts";
+@import "header";
 
-.header {
-  padding: 80px 0;
-  margin-bottom: 40px;
-  background-color: $dark-sky-blue;
-  .title{
-    margin-top: 0;
-    font-family: Lato;
-    font-weight: lighter;
-    font-style: italic;
-    color: white;
-  }
-  .subtitle {
-    font-family: Lato;
-    font-size: 20px;
-    color: white;
-    margin-bottom: 30px;
-  }
-  .store-button {
-    max-width: 45%;
-    height: auto;
+.how-to-section {
+  margin: 10px 0;
+  &.grey {
+    background-color: $pale-grey;
   }
 }
 
@@ -42,4 +27,8 @@
   font-family: Lato;
   font-size: 18px;
   color: $common-grey;
+}
+
+.how-to-image {
+  max-width: 100%;
 }
