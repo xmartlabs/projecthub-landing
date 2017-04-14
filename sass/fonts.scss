@@ -1,0 +1,11 @@
+@font-face {
+  font-family: Aller;
+  // http://stackoverflow.com/questions/24990554/how-to-include-a-font-ttf-using-css
+  src: url('../fonts/aller/aller_bd.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/aller/aller_bd.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/aller/aller_bd.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/aller/aller_bd.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/aller/aller_bd.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: bold;
+  font-style: normal;
+}
