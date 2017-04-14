@@ -8,6 +8,7 @@
 
 .footer {
   @extend .footer-gradient;
+  border-radius: 50% 50% 0 0 / 40px;
   padding: 40px 10px;
   .footer-logo-container {
     margin-bottom: 30px;
@@ -25,5 +26,18 @@
     color: white;
     font-family: Lato;
     font-size: 20px;
+  }
+  .copyright {
+    margin-top: 20px;
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .footer{
+    border-radius: 0;
   }
 }

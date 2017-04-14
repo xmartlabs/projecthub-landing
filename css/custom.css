@@ -20,6 +20,7 @@
   /* Standard syntax */ }
 
 .header {
+  border-radius: 0 0 50% 50% / 40px;
   padding: 80px 0;
   margin-bottom: 40px; }
   .header .logo {
@@ -39,6 +40,10 @@
     max-width: 45%;
     height: auto; }
 
+@media (max-width: 767px) {
+  .header {
+    border-radius: 0; } }
+
 .footer-gradient, .footer {
   background: #4a90e2;
   /* For browsers that do not support gradients */
@@ -52,6 +57,7 @@
   /* Standard syntax */ }
 
 .footer {
+  border-radius: 50% 50% 0 0 / 40px;
   padding: 40px 10px; }
   .footer .footer-logo-container {
     margin-bottom: 30px; }
@@ -66,6 +72,16 @@
     font-size: 20px; }
     .footer .links.transparent {
       opacity: 0.6; }
+  .footer .copyright {
+    margin-top: 20px;
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+    opacity: 0.6; }
+
+@media (max-width: 767px) {
+  .footer {
+    border-radius: 0; } }
 
 .how-to-section {
   margin: 10px 0; }
