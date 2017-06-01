@@ -88,6 +88,9 @@
   .how-to-section.grey {
     background-color: #f8f8fb; }
 
+.section-text {
+  margin-top: 35%; }
+
 .title {
   font-family: Lato;
   font-weight: 100;
@@ -107,3 +110,7 @@
 
 .how-to-image {
   max-width: 100%; }
+
+@media (max-width: 767px) {
+  .section-text {
+    margin-top: 0; } }
