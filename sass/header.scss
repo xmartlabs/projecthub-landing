@@ -32,8 +32,10 @@
   }
 }
 
-@media (max-width: $screen-xs-max) {
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
   .header{
-    border-radius: 0;
+    .logo {
+      margin-top: 80px;
+    }
   }
 }

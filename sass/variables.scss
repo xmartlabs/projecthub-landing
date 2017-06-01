@@ -5,5 +5,7 @@ $pale-magenta: #d56fa1;
 $warm-grey: #979797;
 $common-grey: #919191;
 
+$screen-md-min: 992px;
+$screen-sm-max: $screen-md-min - 1;
 $screen-sm-min: 768px;
 $screen-xs-max: $screen-sm-min - 1;
