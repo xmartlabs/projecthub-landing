@@ -83,6 +83,13 @@
   .footer {
     border-radius: 0; } }
 
+#terms-and-conditions .terms-and-conditions-section {
+  margin: 10px 0; }
+  #terms-and-conditions .terms-and-conditions-section.grey {
+    background-color: #f8f8fb; }
+  #terms-and-conditions .terms-and-conditions-section .section-title {
+    color: #979797; }
+
 .how-to-section {
   margin: 10px 0; }
   .how-to-section.grey {
