@@ -1,0 +1,11 @@
+#terms-and-conditions {
+  .terms-and-conditions-section {
+    margin: 10px 0;
+    &.grey {
+      background-color: $pale-grey;
+    }
+    .section-title {
+      color: $warm-grey;
+    }
+  }
+}

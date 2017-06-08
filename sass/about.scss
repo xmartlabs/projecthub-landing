@@ -1,0 +1,15 @@
+#about {
+
+  .about-section {
+    margin: 10px 0;
+    &.grey {
+      background-color: $pale-grey;
+    }
+  }
+
+  .text-section {
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+
+}

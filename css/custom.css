@@ -78,10 +78,28 @@
     font-family: Lato;
     font-size: 20px;
     opacity: 0.6; }
+    .footer .copyright:last-child {
+      margin-top: 0; }
 
 @media (max-width: 767px) {
   .footer {
     border-radius: 0; } }
+
+#terms-and-conditions .terms-and-conditions-section {
+  margin: 10px 0; }
+  #terms-and-conditions .terms-and-conditions-section.grey {
+    background-color: #f8f8fb; }
+  #terms-and-conditions .terms-and-conditions-section .section-title {
+    color: #979797; }
+
+#about .about-section {
+  margin: 10px 0; }
+  #about .about-section.grey {
+    background-color: #f8f8fb; }
+
+#about .text-section {
+  margin-top: 30px;
+  margin-bottom: 100px; }
 
 .how-to-section {
   margin: 10px 0; }
