@@ -30,6 +30,9 @@
     }
   }
   .copyright {
+    &:last-child {
+      margin-top: 0;
+    }
     margin-top: 20px;
     color: white;
     font-family: Lato;

@@ -78,6 +78,8 @@
     font-family: Lato;
     font-size: 20px;
     opacity: 0.6; }
+    .footer .copyright:last-child {
+      margin-top: 0; }
 
 @media (max-width: 767px) {
   .footer {
