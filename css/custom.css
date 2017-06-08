@@ -90,6 +90,15 @@
   #terms-and-conditions .terms-and-conditions-section .section-title {
     color: #979797; }
 
+#about .about-section {
+  margin: 10px 0; }
+  #about .about-section.grey {
+    background-color: #f8f8fb; }
+
+#about .text-section {
+  margin-top: 5%;
+  margin-bottom: 100px; }
+
 .how-to-section {
   margin: 10px 0; }
   .how-to-section.grey {
