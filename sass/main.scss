@@ -7,13 +7,21 @@
 
 .how-to-section {
   margin: 10px 0;
+  padding: 20px 0;
   &.grey {
     background-color: $pale-grey;
   }
 }
 
-.section-text {
-  margin-top: 35%;
+.text-wrapper {
+  height: 400px;
+  position: relative;
+  .section-text {
+    position: absolute;
+    top: 40%;
+    height: 100px;
+    margin-top: -50px;
+  }
 }
 
 .title {
@@ -42,8 +50,14 @@
 }
 
 @media (max-width: $screen-xs-max) {
-  .section-text {
-    margin-top: 0;
+  .text-wrapper {
+    height: auto;
+    position: static;
+    .section-text {
+      position: static;
+      height: auto;
+      margin-top: 0;
+    }
   }
   .how-to-image {
     height: 200px;

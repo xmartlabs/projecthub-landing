@@ -102,12 +102,19 @@
   margin-bottom: 100px; }
 
 .how-to-section {
-  margin: 10px 0; }
+  margin: 10px 0;
+  padding: 20px 0; }
   .how-to-section.grey {
     background-color: #f8f8fb; }
 
-.section-text {
-  margin-top: 35%; }
+.text-wrapper {
+  height: 400px;
+  position: relative; }
+  .text-wrapper .section-text {
+    position: absolute;
+    top: 40%;
+    height: 100px;
+    margin-top: -50px; }
 
 .title {
   font-family: Lato;
@@ -131,7 +138,12 @@
   max-width: 100%; }
 
 @media (max-width: 767px) {
-  .section-text {
-    margin-top: 0; }
+  .text-wrapper {
+    height: auto;
+    position: static; }
+    .text-wrapper .section-text {
+      position: static;
+      height: auto;
+      margin-top: 0; }
   .how-to-image {
     height: 200px; } }
