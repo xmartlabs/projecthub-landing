@@ -10,7 +10,9 @@
   @extend .footer-gradient;
   padding: 40px 10px;
   .footer-logo-container {
-    margin-bottom: 30px;
+    img {
+      margin-bottom: 30px;
+    }
   }
   .title {
     color: white;
@@ -19,7 +21,6 @@
     font-weight: lighter;
   }
   .link-container {
-    margin-bottom: 20px;
     .links {
       &.transparent {
         opacity: 0.6;

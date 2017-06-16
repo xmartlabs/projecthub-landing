@@ -57,21 +57,19 @@
 
 .footer {
   padding: 40px 10px; }
-  .footer .footer-logo-container {
+  .footer .footer-logo-container img {
     margin-bottom: 30px; }
   .footer .title {
     color: white;
     font-family: Lato;
     font-style: italic;
     font-weight: lighter; }
-  .footer .link-container {
-    margin-bottom: 20px; }
-    .footer .link-container .links {
-      color: white;
-      font-family: Lato;
-      font-size: 20px; }
-      .footer .link-container .links.transparent {
-        opacity: 0.6; }
+  .footer .link-container .links {
+    color: white;
+    font-family: Lato;
+    font-size: 20px; }
+    .footer .link-container .links.transparent {
+      opacity: 0.6; }
   .footer .copyright {
     margin-top: 20px;
     color: white;
