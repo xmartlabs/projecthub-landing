@@ -127,8 +127,11 @@
   color: #919191; }
 
 .how-to-image {
+  height: 400px;
   max-width: 100%; }
 
 @media (max-width: 767px) {
   .section-text {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .how-to-image {
+    height: 200px; } }

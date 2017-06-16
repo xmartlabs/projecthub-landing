@@ -37,11 +37,15 @@
 }
 
 .how-to-image {
+  height: 400px;
   max-width: 100%;
 }
 
 @media (max-width: $screen-xs-max) {
   .section-text {
     margin-top: 0;
+  }
+  .how-to-image {
+    height: 200px;
   }
 }
